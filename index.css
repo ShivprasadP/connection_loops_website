@@ -1,0 +1,368 @@
+.sub-text p {
+    text-align: justify;
+}
+
+header {
+    align-items: center;
+    height: 300px;
+    padding: 1rem 8rem;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    background-color: #1a237e;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+header .contents {
+    width: 80%;
+    margin: auto;
+}
+
+header .contents .sub-text {
+    width: 50%;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+.first-section h2, .second-section h2, .third-section h2, .fourth-section h2, .fifth-section h2 {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.first-section p, .second-section p, .third-section p, .fourth-section p, .fifth-section p {
+    font-size: 1.1rem;
+}
+
+.first-section, .second-section {
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 15px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 35px;
+}
+
+.left-section, .right-section {
+    width: 48%;
+}
+
+.services {
+    display: flex;
+    align-items: flex-start;
+}
+
+.services i {
+    margin-right: 50px;
+    flex-shrink: 0; 
+    font-size: 3rem;
+}
+
+.third-section .right-section p {
+    color: #1564b3;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.fourth-section, .fifth-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-section .left-section, .fourth-section .middle-section, .fourth-section .right-section {
+    width: 27%;
+    text-align: justify;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.fourth-section img {
+    width: 200px; 
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.fourth-section h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.fourth-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.fifth-section {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.fifth-section .left-section img {
+    width: 150px;
+    height: auto;
+    margin-left: 25%;
+}
+
+.fifth-section .right-section {
+    padding: 25px;
+    text-align: justify;
+    padding-right: 15%;
+}
+
+.fifth-section button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    header .contents {
+        width: 600px;
+    }
+
+    header .contents h1 {
+        font-size: 1.5em;
+    }
+
+    header .contents p {
+        font-size: 30px;
+    }
+
+    .third-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .services i {
+        margin-right: 30px;
+        font-size: 2.5rem;
+    }
+
+    .third-section .right-section p {
+        font-size: 1.3rem;
+    }
+
+    .fourth-section {
+        flex-direction: column;
+        padding: 20px;
+        width: 600px;
+        margin-left: -20px;
+    }
+
+    .fourth-section .left-section, .fourth-section .middle-section, .fourth-section .right-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .fourth-section img {
+        width: 150px;
+        height: auto;
+    }
+
+    .fourth-section h4 {
+        font-size: 1.1rem;
+    }
+
+    .fourth-section p {
+        font-size: 0.9rem;
+    }
+
+    .fifth-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .fifth-section .left-section img {
+        width: 25%;
+        margin-left: 35%;
+    }
+
+    .fifth-section .right-section {
+        padding-right: 10%;
+        width: 90%;
+    }
+
+    .fifth-section button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    header {
+        height: 200px;
+        margin-top: 2rem;
+    }
+
+    header .contents {
+        width: 500px;
+    }
+
+    header .contents h1 {
+        font-size: 1.3em;
+    }
+
+    header .contents p {
+        font-size: 20px;
+    }
+
+    .third-section {
+        padding: 15px;
+    }
+
+    .services i {
+        margin-right: 20px;
+        font-size: 2rem;
+    }
+
+    .third-section .right-section p {
+        font-size: 1.2rem;
+    }
+
+    .fourth-section {
+        padding: 15px;
+        width: 85%;
+        margin-left: -20px;
+    }
+
+    .fourth-section .left-section, .fourth-section .middle-section, .fourth-section .right-section {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .fourth-section img {
+        width: 120px;
+        height: auto;
+    }
+
+    .fourth-section h4 {
+        font-size: 1rem;
+    }
+
+    .fourth-section p {
+        font-size: 0.85rem;
+    }
+
+    .fifth-section {
+        padding: 15px;
+    }
+
+    .fifth-section .left-section img {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    .fifth-section .right-section {
+        padding-right: 5%;
+        width: 90%;
+    }
+
+    .fifth-section button {
+        padding: 6px 12px;
+    }    
+}
+
+@media (max-width: 480px) {
+
+    header {
+        height: 150px;
+        margin-top: 3rem;
+    }
+
+    header .contents{
+        width: 400px;
+    }
+
+    header .contents h1 {
+        font-size: 0.9em;
+    }
+
+    header .contents p {
+        font-size: 15px;
+    }
+
+    .third-section {
+        padding: 10px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .services i {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+
+    .third-section .right-section p {
+        font-size: 1rem;
+    }
+
+    .fourth-section {
+        flex-direction: column;
+        padding: 10px;
+        width: 270px;
+    }
+
+    .fourth-section .left-section, .fourth-section .middle-section, .fourth-section .right-section {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: -2px;
+    }
+
+    .fourth-section img {
+        width: 100px;
+        height: auto;
+    }
+
+    .fourth-section h4 {
+        font-size: 0.9rem;
+    }
+
+    .fourth-section p {
+        font-size: 0.8rem;
+    }  
+    
+    .fifth-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .fifth-section .left-section img {
+        width: 25%;
+        margin-left: 35%;
+    }
+
+    .fifth-section .right-section {
+        padding-right: 0;
+        width: 80%;
+    }
+
+    .fifth-section button {
+        padding: 5px 10px;
+    }
+}

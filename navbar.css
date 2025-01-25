@@ -1,0 +1,103 @@
+body {
+    background: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+    /* position: fixed;
+    width: 100%;
+    z-index: 100; */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.company-name {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.nav-links li select {
+    border: none;
+    width: 80px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.start-proj-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-proj-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 750px) {
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .start-proj-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .company-name {
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .start-proj-btn {
+        padding: 8px 16px;
+    }
+}
